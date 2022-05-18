@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 250px;
+}
+
+.welcome-sec {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.color-change {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+
+}
+
+.half-width h1 {
+    font-size: 50px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 40px
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hire-me {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(yellow, red);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiences-div {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experiences-div h1 {
+    font-size: 30px;
+}
+
+.border-shadow {
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+#right-exp {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#left-exp {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(93, 25, 196), tomato);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
